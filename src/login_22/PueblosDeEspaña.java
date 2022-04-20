@@ -44,6 +44,7 @@ public class PueblosDeEspaña extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jScrol_Comunidades = new javax.swing.JScrollPane();
         jPanel2 = new javax.swing.JPanel();
+        jScrol_Provincias = new javax.swing.JScrollPane();
         jPanel3 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -59,15 +60,15 @@ public class PueblosDeEspaña extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrol_Comunidades, javax.swing.GroupLayout.PREFERRED_SIZE, 515, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(239, Short.MAX_VALUE))
+                .addComponent(jScrol_Comunidades, javax.swing.GroupLayout.DEFAULT_SIZE, 744, Short.MAX_VALUE)
+                .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrol_Comunidades, javax.swing.GroupLayout.PREFERRED_SIZE, 423, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(25, Short.MAX_VALUE))
+                .addComponent(jScrol_Comunidades, javax.swing.GroupLayout.DEFAULT_SIZE, 437, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         jTabbedPane1.addTab("Comunidades...", jPanel1);
@@ -76,11 +77,17 @@ public class PueblosDeEspaña extends javax.swing.JFrame {
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 764, Short.MAX_VALUE)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrol_Provincias, javax.swing.GroupLayout.DEFAULT_SIZE, 744, Short.MAX_VALUE)
+                .addContainerGap())
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 459, Short.MAX_VALUE)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrol_Provincias, javax.swing.GroupLayout.DEFAULT_SIZE, 437, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         jTabbedPane1.addTab("Provincias...", jPanel2);
@@ -139,6 +146,7 @@ public class PueblosDeEspaña extends javax.swing.JFrame {
         conn=conexion.getConexion();
         
         creaTabla(jScrol_Comunidades, "select * from comunidadesGen", conn);
+       // creaTabla(jScrol_Provincias, "select * from provincias", conn);
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
@@ -147,6 +155,7 @@ public class PueblosDeEspaña extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private static javax.swing.JScrollPane jScrol_Comunidades;
+    private javax.swing.JScrollPane jScrol_Provincias;
     private javax.swing.JTabbedPane jTabbedPane1;
     // End of variables declaration//GEN-END:variables
 
