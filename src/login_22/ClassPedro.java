@@ -12,6 +12,7 @@ package login_22;
 public class ClassPedro {
     
   
-   String author2 ="Pedro...segunda Version3"; 
+   String author2 ="Pedro...segunda Version3";
+    String hola = "hola muundo git";
    
 }
