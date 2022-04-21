@@ -11,6 +11,7 @@ package login_22;
  */
 public class ClassPedro {
     
-   String author ="Pedro...segunda Version"; 
+   String author ="Pedro...segunda Version";
+   String author2 ="Pedro...segunda Version3"; 
    
 }
