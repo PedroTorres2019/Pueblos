@@ -12,5 +12,6 @@ package login_22;
 public class ClassBienve {
     
     String author = "Bienve";
+    String apellidosAutor = "Moreno Alvarez";
     
 }
