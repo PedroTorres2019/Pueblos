@@ -11,6 +11,6 @@ package login_22;
  */
 public class ClassManuel {
     
-    String author = "Manuel....";
+    int num=7;
     
 }
