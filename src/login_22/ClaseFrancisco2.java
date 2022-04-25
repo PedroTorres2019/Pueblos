@@ -13,7 +13,7 @@ public class ClaseFrancisco2 {
     public ClaseFrancisco2(){
         int i=0;
         do{
-            System.out.println("Hola");
+            System.out.println("Hola Aitor");
             System.out.println("Adios");
         }while(i<1);
     }
