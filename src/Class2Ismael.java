@@ -9,5 +9,5 @@
  * @author usuario
  */
 public class Class2Ismael {
-    String name="hola";
+    String name="hola mama";
 }
