@@ -12,5 +12,5 @@ package login_22;
 public class ClassManuel {
     
     String author = "Manuel....";
-    
+    String author2 = "buenisimas tardes";
 }
