@@ -11,4 +11,5 @@ package login_22;
  */
 public class NuevaClaseJuanma {
     
+    String author="Juanma ";
 }
